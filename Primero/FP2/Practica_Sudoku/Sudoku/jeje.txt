@@ -1,0 +1,44 @@
+#include"ListaJugadores.h"
+
+void iniciar(tListaJugadores & lista) {
+	for (int i = 0; i < lista.cont; i++) {
+		lista.regjug[i].id = "";
+		lista.regjug[i].puntos = 0;
+	}
+	lista.cont = 0;
+}
+
+bool cargar(tListaJugadores & lista) {
+	ifstream archivo("listaJugadores.txt");
+
+}
+
+bool actualizar(tListaJugadores & lista, const tRegJugador & jugador) {
+	bool ok = false;
+	int pos = 0;
+	if (buscar(lista, jugador.id, pos)) {
+		actualizar(lista.regjug[pos], jugador.puntos);
+	}
+	else {
+		int posaux = lista.cont;
+		while (pos > 0 && lista.regjug[posaux] < lista.regjug[posaux - 1])
+		{
+			lista.regjug[posaux] = lista.regjug[posaux - 1];
+			--pos;
+		}
+		lista.regjug[posaux] = jugador;
+		++lista.cont;
+	}
+	++lista.cont;
+	return ok;
+}
+
+void mostrarXRanking(const tListaJugadores & lista) {
+	int i = 0;
+	if (menorXRanking) {
+		while (i < lista.cont) {
+			cout << lista.regjug[i].id << " " << lista.regjug[i].puntos << endl;
+			i++;
+		}
+	}
+}
