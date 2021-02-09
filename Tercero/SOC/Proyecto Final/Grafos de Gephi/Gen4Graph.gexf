@@ -1,0 +1,1939 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2021-01-10">
+    <creator>NetworkX 2.4</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type1" type="string" />
+      <attribute id="1" title="type2" type="string" />
+      <attribute id="2" title="teams" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Hippowdon" label="Hippowdon">
+        <attvalues>
+          <attvalue for="0" value="Ground" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Infernape" label="Infernape">
+        <attvalues>
+          <attvalue for="0" value="Fire" />
+          <attvalue for="1" value="Fighting" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Zapdos" label="Zapdos">
+        <attvalues>
+          <attvalue for="0" value="Electric" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Tyranitar" label="Tyranitar">
+        <attvalues>
+          <attvalue for="0" value="Rock" />
+          <attvalue for="1" value="Dark" />
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </node>
+      <node id="Slowbro" label="Slowbro">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Psychic" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Rotom" label="Rotom">
+        <attvalues>
+          <attvalue for="0" value="Electric" />
+          <attvalue for="1" value="Ghost" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="Umbreon" label="Umbreon">
+        <attvalues>
+          <attvalue for="0" value="Dark" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Tangrowth" label="Tangrowth">
+        <attvalues>
+          <attvalue for="0" value="Grass" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Starmie" label="Starmie">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Psychic" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="Entei" label="Entei">
+        <attvalues>
+          <attvalue for="0" value="Fire" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Shaymin" label="Shaymin">
+        <attvalues>
+          <attvalue for="0" value="Grass" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Gastly" label="Gastly">
+        <attvalues>
+          <attvalue for="0" value="Ghost" />
+          <attvalue for="1" value="Poison" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Munchlax" label="Munchlax">
+        <attvalues>
+          <attvalue for="0" value="Normal" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="Duskull" label="Duskull">
+        <attvalues>
+          <attvalue for="0" value="Ghost" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Chinchou" label="Chinchou">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Electric" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="Houndour" label="Houndour">
+        <attvalues>
+          <attvalue for="0" value="Dark" />
+          <attvalue for="1" value="Fire" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Gligar" label="Gligar">
+        <attvalues>
+          <attvalue for="0" value="Ground" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="Drifloon" label="Drifloon">
+        <attvalues>
+          <attvalue for="0" value="Ghost" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Mantyke" label="Mantyke">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Machop" label="Machop">
+        <attvalues>
+          <attvalue for="0" value="Fighting" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Elekid" label="Elekid">
+        <attvalues>
+          <attvalue for="0" value="Electric" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Snover" label="Snover">
+        <attvalues>
+          <attvalue for="0" value="Grass" />
+          <attvalue for="1" value="Ice" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Qwilfish" label="Qwilfish">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Poison" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Empoleon" label="Empoleon">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Steel" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Sharpedo" label="Sharpedo">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Dark" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Suicune" label="Suicune">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Swampert" label="Swampert">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Ground" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Bronzong" label="Bronzong">
+        <attvalues>
+          <attvalue for="0" value="Steel" />
+          <attvalue for="1" value="Psychic" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Heatran" label="Heatran">
+        <attvalues>
+          <attvalue for="0" value="Fire" />
+          <attvalue for="1" value="Steel" />
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </node>
+      <node id="Skarmory" label="Skarmory">
+        <attvalues>
+          <attvalue for="0" value="Steel" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="Scizor" label="Scizor">
+        <attvalues>
+          <attvalue for="0" value="Bug" />
+          <attvalue for="1" value="Steel" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Jirachi" label="Jirachi">
+        <attvalues>
+          <attvalue for="0" value="Steel" />
+          <attvalue for="1" value="Psychic" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="Azelf" label="Azelf">
+        <attvalues>
+          <attvalue for="0" value="Psychic" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Celebi" label="Celebi">
+        <attvalues>
+          <attvalue for="0" value="Psychic" />
+          <attvalue for="1" value="Grass" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Latias" label="Latias">
+        <attvalues>
+          <attvalue for="0" value="Dragon" />
+          <attvalue for="1" value="Psychic" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="Metagross" label="Metagross">
+        <attvalues>
+          <attvalue for="0" value="Steel" />
+          <attvalue for="1" value="Psychic" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Medicham" label="Medicham">
+        <attvalues>
+          <attvalue for="0" value="Fighting" />
+          <attvalue for="1" value="Psychic" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Aerodactyl" label="Aerodactyl">
+        <attvalues>
+          <attvalue for="0" value="Rock" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Dragonite" label="Dragonite">
+        <attvalues>
+          <attvalue for="0" value="Dragon" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Gyarados" label="Gyarados">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Moltres" label="Moltres">
+        <attvalues>
+          <attvalue for="0" value="Fire" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Houndoom" label="Houndoom">
+        <attvalues>
+          <attvalue for="0" value="Dark" />
+          <attvalue for="1" value="Fire" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Charizard" label="Charizard">
+        <attvalues>
+          <attvalue for="0" value="Fire" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="Torkoal" label="Torkoal">
+        <attvalues>
+          <attvalue for="0" value="Fire" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Blaziken" label="Blaziken">
+        <attvalues>
+          <attvalue for="0" value="Fire" />
+          <attvalue for="1" value="Fighting" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Electrode" label="Electrode">
+        <attvalues>
+          <attvalue for="0" value="Electric" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Magnezone" label="Magnezone">
+        <attvalues>
+          <attvalue for="0" value="Electric" />
+          <attvalue for="1" value="Steel" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Luxray" label="Luxray">
+        <attvalues>
+          <attvalue for="0" value="Electric" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Venusaur" label="Venusaur">
+        <attvalues>
+          <attvalue for="0" value="Grass" />
+          <attvalue for="1" value="Poison" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="Roserade" label="Roserade">
+        <attvalues>
+          <attvalue for="0" value="Grass" />
+          <attvalue for="1" value="Poison" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Breloom" label="Breloom">
+        <attvalues>
+          <attvalue for="0" value="Grass" />
+          <attvalue for="1" value="Fighting" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Torterra" label="Torterra">
+        <attvalues>
+          <attvalue for="0" value="Grass" />
+          <attvalue for="1" value="Ground" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Exeggutor" label="Exeggutor">
+        <attvalues>
+          <attvalue for="0" value="Grass" />
+          <attvalue for="1" value="Psychic" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Jynx" label="Jynx">
+        <attvalues>
+          <attvalue for="0" value="Ice" />
+          <attvalue for="1" value="Psychic" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="Haunter" label="Haunter">
+        <attvalues>
+          <attvalue for="0" value="Ghost" />
+          <attvalue for="1" value="Poison" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Manectric" label="Manectric">
+        <attvalues>
+          <attvalue for="0" value="Electric" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Regirock" label="Regirock">
+        <attvalues>
+          <attvalue for="0" value="Rock" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="Tauros" label="Tauros">
+        <attvalues>
+          <attvalue for="0" value="Normal" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="Slowking" label="Slowking">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Psychic" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Hitmonchan" label="Hitmonchan">
+        <attvalues>
+          <attvalue for="0" value="Fighting" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Skuntank" label="Skuntank">
+        <attvalues>
+          <attvalue for="0" value="Poison" />
+          <attvalue for="1" value="Dark" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Piloswine" label="Piloswine">
+        <attvalues>
+          <attvalue for="0" value="Ice" />
+          <attvalue for="1" value="Ground" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Magneton" label="Magneton">
+        <attvalues>
+          <attvalue for="0" value="Electric" />
+          <attvalue for="1" value="Steel" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Politoed" label="Politoed">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Magmortar" label="Magmortar">
+        <attvalues>
+          <attvalue for="0" value="Fire" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Whiscash" label="Whiscash">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Ground" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Floatzel" label="Floatzel">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Gardevoir" label="Gardevoir">
+        <attvalues>
+          <attvalue for="0" value="Psychic" />
+          <attvalue for="1" value="Fairy" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Sandslash" label="Sandslash">
+        <attvalues>
+          <attvalue for="0" value="Ground" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Vileplume" label="Vileplume">
+        <attvalues>
+          <attvalue for="0" value="Grass" />
+          <attvalue for="1" value="Poison" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hypno" label="Hypno">
+        <attvalues>
+          <attvalue for="0" value="Psychic" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Machoke" label="Machoke">
+        <attvalues>
+          <attvalue for="0" value="Fighting" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Jumpluff" label="Jumpluff">
+        <attvalues>
+          <attvalue for="0" value="Grass" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Solrock" label="Solrock">
+        <attvalues>
+          <attvalue for="0" value="Rock" />
+          <attvalue for="1" value="Psychic" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Marowak" label="Marowak">
+        <attvalues>
+          <attvalue for="0" value="Ground" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Camerupt" label="Camerupt">
+        <attvalues>
+          <attvalue for="0" value="Fire" />
+          <attvalue for="1" value="Ground" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Grumpig" label="Grumpig">
+        <attvalues>
+          <attvalue for="0" value="Psychic" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Poliwrath" label="Poliwrath">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Fighting" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Persian" label="Persian">
+        <attvalues>
+          <attvalue for="0" value="Normal" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Victreebel" label="Victreebel">
+        <attvalues>
+          <attvalue for="0" value="Grass" />
+          <attvalue for="1" value="Poison" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Shiftry" label="Shiftry">
+        <attvalues>
+          <attvalue for="0" value="Grass" />
+          <attvalue for="1" value="Dark" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Typhlosion" label="Typhlosion">
+        <attvalues>
+          <attvalue for="0" value="Fire" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Flygon" label="Flygon">
+        <attvalues>
+          <attvalue for="0" value="Ground" />
+          <attvalue for="1" value="Dragon" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Raikou" label="Raikou">
+        <attvalues>
+          <attvalue for="0" value="Electric" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Lucario" label="Lucario">
+        <attvalues>
+          <attvalue for="0" value="Fighting" />
+          <attvalue for="1" value="Steel" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Clefable" label="Clefable">
+        <attvalues>
+          <attvalue for="0" value="Fairy" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Gliscor" label="Gliscor">
+        <attvalues>
+          <attvalue for="0" value="Ground" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Nidoqueen" label="Nidoqueen">
+        <attvalues>
+          <attvalue for="0" value="Poison" />
+          <attvalue for="1" value="Ground" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Milotic" label="Milotic">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Relicanth" label="Relicanth">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Rock" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Rhydon" label="Rhydon">
+        <attvalues>
+          <attvalue for="0" value="Ground" />
+          <attvalue for="1" value="Rock" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Bellossom" label="Bellossom">
+        <attvalues>
+          <attvalue for="0" value="Grass" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Pelipper" label="Pelipper">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Zangoose" label="Zangoose">
+        <attvalues>
+          <attvalue for="0" value="Normal" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Xatu" label="Xatu">
+        <attvalues>
+          <attvalue for="0" value="Psychic" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Kadabra" label="Kadabra">
+        <attvalues>
+          <attvalue for="0" value="Psychic" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Purugly" label="Purugly">
+        <attvalues>
+          <attvalue for="0" value="Normal" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="Golduck" label="Golduck">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Gabite" label="Gabite">
+        <attvalues>
+          <attvalue for="0" value="Dragon" />
+          <attvalue for="1" value="Ground" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Metang" label="Metang">
+        <attvalues>
+          <attvalue for="0" value="Steel" />
+          <attvalue for="1" value="Psychic" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Glalie" label="Glalie">
+        <attvalues>
+          <attvalue for="0" value="Ice" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Murkrow" label="Murkrow">
+        <attvalues>
+          <attvalue for="0" value="Dark" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Misdreavus" label="Misdreavus">
+        <attvalues>
+          <attvalue for="0" value="Ghost" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Mantine" label="Mantine">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ampharos" label="Ampharos">
+        <attvalues>
+          <attvalue for="0" value="Electric" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Pinsir" label="Pinsir">
+        <attvalues>
+          <attvalue for="0" value="Bug" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Monferno" label="Monferno">
+        <attvalues>
+          <attvalue for="0" value="Fire" />
+          <attvalue for="1" value="Fighting" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Golbat" label="Golbat">
+        <attvalues>
+          <attvalue for="0" value="Poison" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Rayquaza" label="Rayquaza">
+        <attvalues>
+          <attvalue for="0" value="Dragon" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Dialga" label="Dialga">
+        <attvalues>
+          <attvalue for="0" value="Steel" />
+          <attvalue for="1" value="Dragon" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="Palkia" label="Palkia">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Dragon" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Groudon" label="Groudon">
+        <attvalues>
+          <attvalue for="0" value="Ground" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="Mewtwo" label="Mewtwo">
+        <attvalues>
+          <attvalue for="0" value="Psychic" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ho-oh" label="Ho-oh">
+        <attvalues>
+          <attvalue for="0" value="Fire" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Forretress" label="Forretress">
+        <attvalues>
+          <attvalue for="0" value="Bug" />
+          <attvalue for="1" value="Steel" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Giratina" label="Giratina">
+        <attvalues>
+          <attvalue for="0" value="Ghost" />
+          <attvalue for="1" value="Dragon" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="Darkrai" label="Darkrai">
+        <attvalues>
+          <attvalue for="0" value="Dark" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Cloyster" label="Cloyster">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Ice" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Kyogre" label="Kyogre">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Deoxys" label="Deoxys">
+        <attvalues>
+          <attvalue for="0" value="Psychic" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Latios" label="Latios">
+        <attvalues>
+          <attvalue for="0" value="Dragon" />
+          <attvalue for="1" value="Psychic" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Garchomp" label="Garchomp">
+        <attvalues>
+          <attvalue for="0" value="Dragon" />
+          <attvalue for="1" value="Ground" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Lugia" label="Lugia">
+        <attvalues>
+          <attvalue for="0" value="Psychic" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Froslass" label="Froslass">
+        <attvalues>
+          <attvalue for="0" value="Ice" />
+          <attvalue for="1" value="Ghost" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Kabutops" label="Kabutops">
+        <attvalues>
+          <attvalue for="0" value="Rock" />
+          <attvalue for="1" value="Water" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="Tentacruel" label="Tentacruel">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Poison" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Lairon" label="Lairon">
+        <attvalues>
+          <attvalue for="0" value="Steel" />
+          <attvalue for="1" value="Rock" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Quagsire" label="Quagsire">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Ground" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Tangela" label="Tangela">
+        <attvalues>
+          <attvalue for="0" value="Grass" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Flareon" label="Flareon">
+        <attvalues>
+          <attvalue for="0" value="Fire" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Swalot" label="Swalot">
+        <attvalues>
+          <attvalue for="0" value="Poison" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Banette" label="Banette">
+        <attvalues>
+          <attvalue for="0" value="Ghost" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Seviper" label="Seviper">
+        <attvalues>
+          <attvalue for="0" value="Poison" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Raticate" label="Raticate">
+        <attvalues>
+          <attvalue for="0" value="Normal" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Pikachu" label="Pikachu">
+        <attvalues>
+          <attvalue for="0" value="Electric" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Onix" label="Onix">
+        <attvalues>
+          <attvalue for="0" value="Rock" />
+          <attvalue for="1" value="Ground" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Magmar" label="Magmar">
+        <attvalues>
+          <attvalue for="0" value="Fire" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Weepinbell" label="Weepinbell">
+        <attvalues>
+          <attvalue for="0" value="Grass" />
+          <attvalue for="1" value="Poison" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Abra" label="Abra">
+        <attvalues>
+          <attvalue for="0" value="Psychic" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Uxie" label="Uxie">
+        <attvalues>
+          <attvalue for="0" value="Psychic" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Feraligatr" label="Feraligatr">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Donphan" label="Donphan">
+        <attvalues>
+          <attvalue for="0" value="Ground" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Toxicroak" label="Toxicroak">
+        <attvalues>
+          <attvalue for="0" value="Poison" />
+          <attvalue for="1" value="Fighting" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Mismagius" label="Mismagius">
+        <attvalues>
+          <attvalue for="0" value="Ghost" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="Ursaring" label="Ursaring">
+        <attvalues>
+          <attvalue for="0" value="Normal" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hitmonlee" label="Hitmonlee">
+        <attvalues>
+          <attvalue for="0" value="Fighting" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Steelix" label="Steelix">
+        <attvalues>
+          <attvalue for="0" value="Steel" />
+          <attvalue for="1" value="Ground" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Altaria" label="Altaria">
+        <attvalues>
+          <attvalue for="0" value="Dragon" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Leafeon" label="Leafeon">
+        <attvalues>
+          <attvalue for="0" value="Grass" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Dugtrio" label="Dugtrio">
+        <attvalues>
+          <attvalue for="0" value="Ground" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Drapion" label="Drapion">
+        <attvalues>
+          <attvalue for="0" value="Poison" />
+          <attvalue for="1" value="Dark" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Miltank" label="Miltank">
+        <attvalues>
+          <attvalue for="0" value="Normal" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Absol" label="Absol">
+        <attvalues>
+          <attvalue for="0" value="Dark" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Alakazam" label="Alakazam">
+        <attvalues>
+          <attvalue for="0" value="Psychic" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Mesprit" label="Mesprit">
+        <attvalues>
+          <attvalue for="0" value="Psychic" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Swellow" label="Swellow">
+        <attvalues>
+          <attvalue for="0" value="Normal" />
+          <attvalue for="1" value="Flying" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Arcanine" label="Arcanine">
+        <attvalues>
+          <attvalue for="0" value="Fire" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ludicolo" label="Ludicolo">
+        <attvalues>
+          <attvalue for="0" value="Water" />
+          <attvalue for="1" value="Grass" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Registeel" label="Registeel">
+        <attvalues>
+          <attvalue for="0" value="Steel" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Aggron" label="Aggron">
+        <attvalues>
+          <attvalue for="0" value="Steel" />
+          <attvalue for="1" value="Rock" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sceptile" label="Sceptile">
+        <attvalues>
+          <attvalue for="0" value="Grass" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Primeape" label="Primeape">
+        <attvalues>
+          <attvalue for="0" value="Fighting" />
+          <attvalue for="1" value="None" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Rhyperior" label="Rhyperior">
+        <attvalues>
+          <attvalue for="0" value="Ground" />
+          <attvalue for="1" value="Rock" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Hippowdon" target="Infernape" id="0" weight="1" />
+      <edge source="Hippowdon" target="Zapdos" id="1" weight="1" />
+      <edge source="Hippowdon" target="Skarmory" id="2" weight="1" />
+      <edge source="Hippowdon" target="Clefable" id="3" weight="1" />
+      <edge source="Hippowdon" target="Starmie" id="4" weight="1" />
+      <edge source="Hippowdon" target="Gliscor" id="5" weight="1" />
+      <edge source="Hippowdon" target="Jirachi" id="6" weight="1" />
+      <edge source="Infernape" target="Zapdos" id="7" weight="1" />
+      <edge source="Infernape" target="Heatran" id="8" weight="1" />
+      <edge source="Infernape" target="Houndoom" id="9" weight="1" />
+      <edge source="Infernape" target="Charizard" id="10" weight="1" />
+      <edge source="Infernape" target="Torkoal" id="11" weight="1" />
+      <edge source="Infernape" target="Blaziken" id="12" weight="1" />
+      <edge source="Infernape" target="Metagross" id="13" weight="1" />
+      <edge source="Infernape" target="Scizor" id="14" weight="1" />
+      <edge source="Infernape" target="Tyranitar" id="15" weight="1" />
+      <edge source="Infernape" target="Rotom" id="16" weight="1" />
+      <edge source="Infernape" target="Latias" id="17" weight="1" />
+      <edge source="Zapdos" target="Aerodactyl" id="18" weight="1" />
+      <edge source="Zapdos" target="Dragonite" id="19" weight="1" />
+      <edge source="Zapdos" target="Gyarados" id="20" weight="1" />
+      <edge source="Zapdos" target="Skarmory" id="21" weight="1" />
+      <edge source="Zapdos" target="Moltres" id="22" weight="1" />
+      <edge source="Zapdos" target="Tyranitar" id="23" weight="1" />
+      <edge source="Zapdos" target="Breloom" id="24" weight="1" />
+      <edge source="Zapdos" target="Starmie" id="25" weight="1" />
+      <edge source="Zapdos" target="Heatran" id="26" weight="2" />
+      <edge source="Zapdos" target="Metagross" id="27" weight="2" />
+      <edge source="Zapdos" target="Latias" id="28" weight="1" />
+      <edge source="Zapdos" target="Suicune" id="29" weight="1" />
+      <edge source="Zapdos" target="Flygon" id="30" weight="1" />
+      <edge source="Tyranitar" target="Slowbro" id="31" weight="1" />
+      <edge source="Tyranitar" target="Rotom" id="32" weight="5" />
+      <edge source="Tyranitar" target="Entei" id="33" weight="1" />
+      <edge source="Tyranitar" target="Shaymin" id="34" weight="1" />
+      <edge source="Tyranitar" target="Azelf" id="35" weight="1" />
+      <edge source="Tyranitar" target="Breloom" id="36" weight="2" />
+      <edge source="Tyranitar" target="Jirachi" id="37" weight="3" />
+      <edge source="Tyranitar" target="Gyarados" id="38" weight="2" />
+      <edge source="Tyranitar" target="Starmie" id="39" weight="2" />
+      <edge source="Tyranitar" target="Heatran" id="40" weight="3" />
+      <edge source="Tyranitar" target="Metagross" id="41" weight="2" />
+      <edge source="Tyranitar" target="Empoleon" id="42" weight="1" />
+      <edge source="Tyranitar" target="Bronzong" id="43" weight="1" />
+      <edge source="Tyranitar" target="Dragonite" id="44" weight="1" />
+      <edge source="Tyranitar" target="Roserade" id="45" weight="1" />
+      <edge source="Tyranitar" target="Swampert" id="46" weight="1" />
+      <edge source="Tyranitar" target="Latias" id="47" weight="3" />
+      <edge source="Tyranitar" target="Raikou" id="48" weight="1" />
+      <edge source="Tyranitar" target="Charizard" id="49" weight="1" />
+      <edge source="Tyranitar" target="Suicune" id="50" weight="1" />
+      <edge source="Tyranitar" target="Scizor" id="51" weight="1" />
+      <edge source="Tyranitar" target="Skarmory" id="52" weight="4" />
+      <edge source="Tyranitar" target="Flygon" id="53" weight="1" />
+      <edge source="Tyranitar" target="Lucario" id="54" weight="1" />
+      <edge source="Tyranitar" target="Nidoqueen" id="55" weight="1" />
+      <edge source="Tyranitar" target="Milotic" id="56" weight="1" />
+      <edge source="Tyranitar" target="Gliscor" id="57" weight="1" />
+      <edge source="Tyranitar" target="Groudon" id="58" weight="1" />
+      <edge source="Tyranitar" target="Mewtwo" id="59" weight="1" />
+      <edge source="Tyranitar" target="Latios" id="60" weight="2" />
+      <edge source="Tyranitar" target="Dialga" id="61" weight="2" />
+      <edge source="Tyranitar" target="Kyogre" id="62" weight="1" />
+      <edge source="Tyranitar" target="Darkrai" id="63" weight="1" />
+      <edge source="Slowbro" target="Rotom" id="64" weight="1" />
+      <edge source="Rotom" target="Electrode" id="65" weight="1" />
+      <edge source="Rotom" target="Charizard" id="66" weight="1" />
+      <edge source="Rotom" target="Magnezone" id="67" weight="1" />
+      <edge source="Rotom" target="Luxray" id="68" weight="1" />
+      <edge source="Rotom" target="Moltres" id="69" weight="1" />
+      <edge source="Rotom" target="Azelf" id="70" weight="1" />
+      <edge source="Rotom" target="Breloom" id="71" weight="1" />
+      <edge source="Rotom" target="Jirachi" id="72" weight="1" />
+      <edge source="Rotom" target="Gyarados" id="73" weight="2" />
+      <edge source="Rotom" target="Roserade" id="74" weight="1" />
+      <edge source="Rotom" target="Swampert" id="75" weight="1" />
+      <edge source="Rotom" target="Latias" id="76" weight="2" />
+      <edge source="Rotom" target="Heatran" id="77" weight="1" />
+      <edge source="Rotom" target="Metagross" id="78" weight="1" />
+      <edge source="Rotom" target="Scizor" id="79" weight="1" />
+      <edge source="Rotom" target="Skarmory" id="80" weight="1" />
+      <edge source="Rotom" target="Flygon" id="81" weight="1" />
+      <edge source="Rotom" target="Lucario" id="82" weight="1" />
+      <edge source="Rotom" target="Uxie" id="83" weight="1" />
+      <edge source="Rotom" target="Qwilfish" id="84" weight="1" />
+      <edge source="Rotom" target="Mismagius" id="85" weight="1" />
+      <edge source="Rotom" target="Ursaring" id="86" weight="1" />
+      <edge source="Rotom" target="Hitmonlee" id="87" weight="1" />
+      <edge source="Umbreon" target="Tangrowth" id="88" weight="1" />
+      <edge source="Umbreon" target="Starmie" id="89" weight="1" />
+      <edge source="Tangrowth" target="Starmie" id="90" weight="1" />
+      <edge source="Starmie" target="Qwilfish" id="91" weight="1" />
+      <edge source="Starmie" target="Empoleon" id="92" weight="2" />
+      <edge source="Starmie" target="Sharpedo" id="93" weight="1" />
+      <edge source="Starmie" target="Suicune" id="94" weight="1" />
+      <edge source="Starmie" target="Swampert" id="95" weight="1" />
+      <edge source="Starmie" target="Breloom" id="96" weight="1" />
+      <edge source="Starmie" target="Heatran" id="97" weight="1" />
+      <edge source="Starmie" target="Metagross" id="98" weight="1" />
+      <edge source="Starmie" target="Jirachi" id="99" weight="2" />
+      <edge source="Starmie" target="Bronzong" id="100" weight="1" />
+      <edge source="Starmie" target="Dragonite" id="101" weight="1" />
+      <edge source="Starmie" target="Skarmory" id="102" weight="1" />
+      <edge source="Starmie" target="Clefable" id="103" weight="1" />
+      <edge source="Starmie" target="Gliscor" id="104" weight="1" />
+      <edge source="Entei" target="Shaymin" id="105" weight="1" />
+      <edge source="Shaymin" target="Tentacruel" id="106" weight="1" />
+      <edge source="Shaymin" target="Dialga" id="107" weight="1" />
+      <edge source="Shaymin" target="Giratina" id="108" weight="1" />
+      <edge source="Shaymin" target="Jirachi" id="109" weight="1" />
+      <edge source="Shaymin" target="Kyogre" id="110" weight="1" />
+      <edge source="Gastly" target="Munchlax" id="111" weight="2" />
+      <edge source="Gastly" target="Duskull" id="112" weight="1" />
+      <edge source="Gastly" target="Chinchou" id="113" weight="2" />
+      <edge source="Gastly" target="Houndour" id="114" weight="2" />
+      <edge source="Gastly" target="Gligar" id="115" weight="2" />
+      <edge source="Gastly" target="Mantyke" id="116" weight="1" />
+      <edge source="Gastly" target="Lairon" id="117" weight="2" />
+      <edge source="Gastly" target="Quagsire" id="118" weight="2" />
+      <edge source="Gastly" target="Tangela" id="119" weight="2" />
+      <edge source="Gastly" target="Flareon" id="120" weight="2" />
+      <edge source="Gastly" target="Swalot" id="121" weight="2" />
+      <edge source="Munchlax" target="Duskull" id="122" weight="4" />
+      <edge source="Munchlax" target="Chinchou" id="123" weight="5" />
+      <edge source="Munchlax" target="Houndour" id="124" weight="4" />
+      <edge source="Munchlax" target="Gligar" id="125" weight="5" />
+      <edge source="Munchlax" target="Drifloon" id="126" weight="1" />
+      <edge source="Munchlax" target="Mantyke" id="127" weight="1" />
+      <edge source="Munchlax" target="Machop" id="128" weight="1" />
+      <edge source="Munchlax" target="Elekid" id="129" weight="1" />
+      <edge source="Munchlax" target="Snover" id="130" weight="1" />
+      <edge source="Duskull" target="Chinchou" id="131" weight="4" />
+      <edge source="Duskull" target="Houndour" id="132" weight="3" />
+      <edge source="Duskull" target="Gligar" id="133" weight="4" />
+      <edge source="Duskull" target="Drifloon" id="134" weight="1" />
+      <edge source="Duskull" target="Machop" id="135" weight="1" />
+      <edge source="Duskull" target="Elekid" id="136" weight="1" />
+      <edge source="Duskull" target="Snover" id="137" weight="1" />
+      <edge source="Chinchou" target="Houndour" id="138" weight="4" />
+      <edge source="Chinchou" target="Gligar" id="139" weight="5" />
+      <edge source="Chinchou" target="Drifloon" id="140" weight="1" />
+      <edge source="Chinchou" target="Mantyke" id="141" weight="1" />
+      <edge source="Chinchou" target="Machop" id="142" weight="1" />
+      <edge source="Chinchou" target="Elekid" id="143" weight="1" />
+      <edge source="Chinchou" target="Snover" id="144" weight="1" />
+      <edge source="Houndour" target="Gligar" id="145" weight="4" />
+      <edge source="Houndour" target="Drifloon" id="146" weight="1" />
+      <edge source="Houndour" target="Mantyke" id="147" weight="1" />
+      <edge source="Houndour" target="Machop" id="148" weight="1" />
+      <edge source="Gligar" target="Drifloon" id="149" weight="1" />
+      <edge source="Gligar" target="Mantyke" id="150" weight="1" />
+      <edge source="Gligar" target="Machop" id="151" weight="1" />
+      <edge source="Gligar" target="Elekid" id="152" weight="1" />
+      <edge source="Gligar" target="Snover" id="153" weight="1" />
+      <edge source="Gligar" target="Medicham" id="154" weight="1" />
+      <edge source="Gligar" target="Hypno" id="155" weight="1" />
+      <edge source="Gligar" target="Magneton" id="156" weight="1" />
+      <edge source="Gligar" target="Tauros" id="157" weight="1" />
+      <edge source="Gligar" target="Hitmonchan" id="158" weight="1" />
+      <edge source="Elekid" target="Snover" id="159" weight="1" />
+      <edge source="Qwilfish" target="Empoleon" id="160" weight="1" />
+      <edge source="Qwilfish" target="Sharpedo" id="161" weight="1" />
+      <edge source="Qwilfish" target="Suicune" id="162" weight="1" />
+      <edge source="Qwilfish" target="Swampert" id="163" weight="1" />
+      <edge source="Qwilfish" target="Uxie" id="164" weight="1" />
+      <edge source="Qwilfish" target="Mismagius" id="165" weight="1" />
+      <edge source="Qwilfish" target="Ursaring" id="166" weight="1" />
+      <edge source="Qwilfish" target="Hitmonlee" id="167" weight="1" />
+      <edge source="Empoleon" target="Sharpedo" id="168" weight="1" />
+      <edge source="Empoleon" target="Suicune" id="169" weight="1" />
+      <edge source="Empoleon" target="Swampert" id="170" weight="1" />
+      <edge source="Empoleon" target="Bronzong" id="171" weight="2" />
+      <edge source="Empoleon" target="Heatran" id="172" weight="1" />
+      <edge source="Empoleon" target="Skarmory" id="173" weight="1" />
+      <edge source="Empoleon" target="Scizor" id="174" weight="1" />
+      <edge source="Empoleon" target="Jirachi" id="175" weight="2" />
+      <edge source="Empoleon" target="Dragonite" id="176" weight="1" />
+      <edge source="Sharpedo" target="Suicune" id="177" weight="1" />
+      <edge source="Sharpedo" target="Swampert" id="178" weight="1" />
+      <edge source="Suicune" target="Swampert" id="179" weight="1" />
+      <edge source="Suicune" target="Heatran" id="180" weight="1" />
+      <edge source="Suicune" target="Latias" id="181" weight="2" />
+      <edge source="Suicune" target="Metagross" id="182" weight="1" />
+      <edge source="Suicune" target="Flygon" id="183" weight="1" />
+      <edge source="Suicune" target="Jirachi" id="184" weight="1" />
+      <edge source="Suicune" target="Raikou" id="185" weight="1" />
+      <edge source="Suicune" target="Charizard" id="186" weight="1" />
+      <edge source="Swampert" target="Roserade" id="187" weight="1" />
+      <edge source="Swampert" target="Latias" id="188" weight="1" />
+      <edge source="Swampert" target="Heatran" id="189" weight="1" />
+      <edge source="Bronzong" target="Heatran" id="190" weight="1" />
+      <edge source="Bronzong" target="Skarmory" id="191" weight="1" />
+      <edge source="Bronzong" target="Scizor" id="192" weight="1" />
+      <edge source="Bronzong" target="Jirachi" id="193" weight="2" />
+      <edge source="Bronzong" target="Dragonite" id="194" weight="1" />
+      <edge source="Heatran" target="Skarmory" id="195" weight="2" />
+      <edge source="Heatran" target="Scizor" id="196" weight="1" />
+      <edge source="Heatran" target="Jirachi" id="197" weight="1" />
+      <edge source="Heatran" target="Houndoom" id="198" weight="1" />
+      <edge source="Heatran" target="Charizard" id="199" weight="1" />
+      <edge source="Heatran" target="Torkoal" id="200" weight="1" />
+      <edge source="Heatran" target="Blaziken" id="201" weight="1" />
+      <edge source="Heatran" target="Breloom" id="202" weight="1" />
+      <edge source="Heatran" target="Metagross" id="203" weight="2" />
+      <edge source="Heatran" target="Latias" id="204" weight="2" />
+      <edge source="Heatran" target="Flygon" id="205" weight="1" />
+      <edge source="Heatran" target="Roserade" id="206" weight="1" />
+      <edge source="Heatran" target="Nidoqueen" id="207" weight="1" />
+      <edge source="Heatran" target="Milotic" id="208" weight="1" />
+      <edge source="Heatran" target="Gliscor" id="209" weight="1" />
+      <edge source="Heatran" target="Deoxys" id="210" weight="1" />
+      <edge source="Heatran" target="Latios" id="211" weight="1" />
+      <edge source="Heatran" target="Groudon" id="212" weight="2" />
+      <edge source="Heatran" target="Giratina" id="213" weight="2" />
+      <edge source="Heatran" target="Garchomp" id="214" weight="1" />
+      <edge source="Heatran" target="Cloyster" id="215" weight="1" />
+      <edge source="Heatran" target="Palkia" id="216" weight="1" />
+      <edge source="Heatran" target="Lugia" id="217" weight="1" />
+      <edge source="Skarmory" target="Scizor" id="218" weight="1" />
+      <edge source="Skarmory" target="Jirachi" id="219" weight="2" />
+      <edge source="Skarmory" target="Aerodactyl" id="220" weight="1" />
+      <edge source="Skarmory" target="Dragonite" id="221" weight="1" />
+      <edge source="Skarmory" target="Gyarados" id="222" weight="2" />
+      <edge source="Skarmory" target="Moltres" id="223" weight="1" />
+      <edge source="Skarmory" target="Flygon" id="224" weight="1" />
+      <edge source="Skarmory" target="Lucario" id="225" weight="1" />
+      <edge source="Skarmory" target="Clefable" id="226" weight="1" />
+      <edge source="Skarmory" target="Gliscor" id="227" weight="2" />
+      <edge source="Skarmory" target="Nidoqueen" id="228" weight="1" />
+      <edge source="Skarmory" target="Milotic" id="229" weight="1" />
+      <edge source="Skarmory" target="Groudon" id="230" weight="1" />
+      <edge source="Skarmory" target="Mewtwo" id="231" weight="1" />
+      <edge source="Skarmory" target="Latios" id="232" weight="2" />
+      <edge source="Skarmory" target="Dialga" id="233" weight="2" />
+      <edge source="Skarmory" target="Kyogre" id="234" weight="1" />
+      <edge source="Skarmory" target="Darkrai" id="235" weight="1" />
+      <edge source="Scizor" target="Jirachi" id="236" weight="1" />
+      <edge source="Scizor" target="Metagross" id="237" weight="1" />
+      <edge source="Scizor" target="Latias" id="238" weight="1" />
+      <edge source="Scizor" target="Rayquaza" id="239" weight="1" />
+      <edge source="Scizor" target="Dialga" id="240" weight="2" />
+      <edge source="Scizor" target="Palkia" id="241" weight="2" />
+      <edge source="Scizor" target="Groudon" id="242" weight="1" />
+      <edge source="Scizor" target="Mewtwo" id="243" weight="1" />
+      <edge source="Scizor" target="Cloyster" id="244" weight="1" />
+      <edge source="Scizor" target="Giratina" id="245" weight="1" />
+      <edge source="Scizor" target="Kyogre" id="246" weight="1" />
+      <edge source="Jirachi" target="Azelf" id="247" weight="2" />
+      <edge source="Jirachi" target="Celebi" id="248" weight="1" />
+      <edge source="Jirachi" target="Latias" id="249" weight="2" />
+      <edge source="Jirachi" target="Metagross" id="250" weight="1" />
+      <edge source="Jirachi" target="Medicham" id="251" weight="1" />
+      <edge source="Jirachi" target="Breloom" id="252" weight="1" />
+      <edge source="Jirachi" target="Gyarados" id="253" weight="1" />
+      <edge source="Jirachi" target="Dragonite" id="254" weight="1" />
+      <edge source="Jirachi" target="Raikou" id="255" weight="1" />
+      <edge source="Jirachi" target="Charizard" id="256" weight="1" />
+      <edge source="Jirachi" target="Clefable" id="257" weight="1" />
+      <edge source="Jirachi" target="Gliscor" id="258" weight="1" />
+      <edge source="Jirachi" target="Tentacruel" id="259" weight="1" />
+      <edge source="Jirachi" target="Dialga" id="260" weight="1" />
+      <edge source="Jirachi" target="Giratina" id="261" weight="1" />
+      <edge source="Jirachi" target="Kyogre" id="262" weight="1" />
+      <edge source="Azelf" target="Celebi" id="263" weight="1" />
+      <edge source="Azelf" target="Latias" id="264" weight="1" />
+      <edge source="Azelf" target="Metagross" id="265" weight="1" />
+      <edge source="Azelf" target="Medicham" id="266" weight="1" />
+      <edge source="Azelf" target="Breloom" id="267" weight="1" />
+      <edge source="Azelf" target="Gyarados" id="268" weight="1" />
+      <edge source="Celebi" target="Latias" id="269" weight="1" />
+      <edge source="Celebi" target="Metagross" id="270" weight="1" />
+      <edge source="Celebi" target="Medicham" id="271" weight="1" />
+      <edge source="Celebi" target="Venusaur" id="272" weight="1" />
+      <edge source="Celebi" target="Roserade" id="273" weight="1" />
+      <edge source="Celebi" target="Breloom" id="274" weight="1" />
+      <edge source="Celebi" target="Torterra" id="275" weight="1" />
+      <edge source="Celebi" target="Exeggutor" id="276" weight="1" />
+      <edge source="Latias" target="Metagross" id="277" weight="3" />
+      <edge source="Latias" target="Medicham" id="278" weight="1" />
+      <edge source="Latias" target="Flygon" id="279" weight="1" />
+      <edge source="Latias" target="Roserade" id="280" weight="1" />
+      <edge source="Latias" target="Raikou" id="281" weight="1" />
+      <edge source="Latias" target="Charizard" id="282" weight="1" />
+      <edge source="Metagross" target="Medicham" id="283" weight="1" />
+      <edge source="Metagross" target="Breloom" id="284" weight="1" />
+      <edge source="Metagross" target="Flygon" id="285" weight="1" />
+      <edge source="Medicham" target="Hypno" id="286" weight="1" />
+      <edge source="Medicham" target="Magneton" id="287" weight="1" />
+      <edge source="Medicham" target="Tauros" id="288" weight="2" />
+      <edge source="Medicham" target="Hitmonchan" id="289" weight="1" />
+      <edge source="Medicham" target="Solrock" id="290" weight="1" />
+      <edge source="Medicham" target="Marowak" id="291" weight="1" />
+      <edge source="Medicham" target="Camerupt" id="292" weight="1" />
+      <edge source="Medicham" target="Gardevoir" id="293" weight="1" />
+      <edge source="Aerodactyl" target="Dragonite" id="294" weight="1" />
+      <edge source="Aerodactyl" target="Gyarados" id="295" weight="1" />
+      <edge source="Aerodactyl" target="Moltres" id="296" weight="1" />
+      <edge source="Dragonite" target="Gyarados" id="297" weight="1" />
+      <edge source="Dragonite" target="Moltres" id="298" weight="1" />
+      <edge source="Gyarados" target="Moltres" id="299" weight="1" />
+      <edge source="Gyarados" target="Breloom" id="300" weight="1" />
+      <edge source="Gyarados" target="Flygon" id="301" weight="1" />
+      <edge source="Gyarados" target="Lucario" id="302" weight="1" />
+      <edge source="Moltres" target="Electrode" id="303" weight="1" />
+      <edge source="Moltres" target="Charizard" id="304" weight="1" />
+      <edge source="Moltres" target="Magnezone" id="305" weight="1" />
+      <edge source="Moltres" target="Luxray" id="306" weight="1" />
+      <edge source="Moltres" target="Uxie" id="307" weight="1" />
+      <edge source="Moltres" target="Feraligatr" id="308" weight="1" />
+      <edge source="Moltres" target="Donphan" id="309" weight="2" />
+      <edge source="Moltres" target="Venusaur" id="310" weight="2" />
+      <edge source="Moltres" target="Toxicroak" id="311" weight="1" />
+      <edge source="Moltres" target="Aggron" id="312" weight="1" />
+      <edge source="Moltres" target="Milotic" id="313" weight="1" />
+      <edge source="Moltres" target="Clefable" id="314" weight="1" />
+      <edge source="Houndoom" target="Charizard" id="315" weight="1" />
+      <edge source="Houndoom" target="Torkoal" id="316" weight="1" />
+      <edge source="Houndoom" target="Blaziken" id="317" weight="1" />
+      <edge source="Houndoom" target="Mismagius" id="318" weight="1" />
+      <edge source="Houndoom" target="Registeel" id="319" weight="1" />
+      <edge source="Houndoom" target="Venusaur" id="320" weight="1" />
+      <edge source="Houndoom" target="Milotic" id="321" weight="1" />
+      <edge source="Houndoom" target="Primeape" id="322" weight="1" />
+      <edge source="Charizard" target="Torkoal" id="323" weight="1" />
+      <edge source="Charizard" target="Blaziken" id="324" weight="1" />
+      <edge source="Charizard" target="Electrode" id="325" weight="1" />
+      <edge source="Charizard" target="Magnezone" id="326" weight="1" />
+      <edge source="Charizard" target="Luxray" id="327" weight="1" />
+      <edge source="Charizard" target="Regirock" id="328" weight="1" />
+      <edge source="Charizard" target="Skuntank" id="329" weight="2" />
+      <edge source="Charizard" target="Hitmonchan" id="330" weight="1" />
+      <edge source="Charizard" target="Whiscash" id="331" weight="2" />
+      <edge source="Charizard" target="Magmortar" id="332" weight="1" />
+      <edge source="Charizard" target="Floatzel" id="333" weight="1" />
+      <edge source="Charizard" target="Gardevoir" id="334" weight="1" />
+      <edge source="Charizard" target="Sandslash" id="335" weight="3" />
+      <edge source="Charizard" target="Vileplume" id="336" weight="1" />
+      <edge source="Charizard" target="Machoke" id="337" weight="1" />
+      <edge source="Charizard" target="Manectric" id="338" weight="1" />
+      <edge source="Charizard" target="Jumpluff" id="339" weight="2" />
+      <edge source="Charizard" target="Grumpig" id="340" weight="1" />
+      <edge source="Charizard" target="Poliwrath" id="341" weight="1" />
+      <edge source="Charizard" target="Tauros" id="342" weight="1" />
+      <edge source="Charizard" target="Raikou" id="343" weight="1" />
+      <edge source="Torkoal" target="Blaziken" id="344" weight="1" />
+      <edge source="Blaziken" target="Drapion" id="345" weight="1" />
+      <edge source="Blaziken" target="Uxie" id="346" weight="1" />
+      <edge source="Blaziken" target="Miltank" id="347" weight="1" />
+      <edge source="Blaziken" target="Mismagius" id="348" weight="2" />
+      <edge source="Blaziken" target="Kabutops" id="349" weight="1" />
+      <edge source="Blaziken" target="Clefable" id="350" weight="1" />
+      <edge source="Blaziken" target="Venusaur" id="351" weight="1" />
+      <edge source="Blaziken" target="Absol" id="352" weight="1" />
+      <edge source="Blaziken" target="Alakazam" id="353" weight="1" />
+      <edge source="Electrode" target="Magnezone" id="354" weight="1" />
+      <edge source="Electrode" target="Luxray" id="355" weight="1" />
+      <edge source="Magnezone" target="Luxray" id="356" weight="1" />
+      <edge source="Venusaur" target="Roserade" id="357" weight="1" />
+      <edge source="Venusaur" target="Breloom" id="358" weight="1" />
+      <edge source="Venusaur" target="Torterra" id="359" weight="1" />
+      <edge source="Venusaur" target="Exeggutor" id="360" weight="1" />
+      <edge source="Venusaur" target="Uxie" id="361" weight="1" />
+      <edge source="Venusaur" target="Feraligatr" id="362" weight="1" />
+      <edge source="Venusaur" target="Donphan" id="363" weight="2" />
+      <edge source="Venusaur" target="Toxicroak" id="364" weight="1" />
+      <edge source="Venusaur" target="Clefable" id="365" weight="2" />
+      <edge source="Venusaur" target="Absol" id="366" weight="1" />
+      <edge source="Venusaur" target="Mismagius" id="367" weight="2" />
+      <edge source="Venusaur" target="Alakazam" id="368" weight="1" />
+      <edge source="Venusaur" target="Aggron" id="369" weight="1" />
+      <edge source="Venusaur" target="Milotic" id="370" weight="2" />
+      <edge source="Venusaur" target="Registeel" id="371" weight="1" />
+      <edge source="Venusaur" target="Primeape" id="372" weight="1" />
+      <edge source="Roserade" target="Breloom" id="373" weight="1" />
+      <edge source="Roserade" target="Torterra" id="374" weight="1" />
+      <edge source="Roserade" target="Exeggutor" id="375" weight="1" />
+      <edge source="Breloom" target="Torterra" id="376" weight="1" />
+      <edge source="Breloom" target="Exeggutor" id="377" weight="1" />
+      <edge source="Torterra" target="Exeggutor" id="378" weight="1" />
+      <edge source="Jynx" target="Haunter" id="379" weight="4" />
+      <edge source="Jynx" target="Manectric" id="380" weight="3" />
+      <edge source="Jynx" target="Regirock" id="381" weight="3" />
+      <edge source="Jynx" target="Tauros" id="382" weight="2" />
+      <edge source="Jynx" target="Slowking" id="383" weight="2" />
+      <edge source="Jynx" target="Hitmonchan" id="384" weight="1" />
+      <edge source="Jynx" target="Skuntank" id="385" weight="1" />
+      <edge source="Jynx" target="Piloswine" id="386" weight="1" />
+      <edge source="Jynx" target="Magneton" id="387" weight="1" />
+      <edge source="Jynx" target="Politoed" id="388" weight="1" />
+      <edge source="Jynx" target="Magmortar" id="389" weight="1" />
+      <edge source="Jynx" target="Clefable" id="390" weight="1" />
+      <edge source="Jynx" target="Feraligatr" id="391" weight="1" />
+      <edge source="Jynx" target="Rhyperior" id="392" weight="1" />
+      <edge source="Jynx" target="Milotic" id="393" weight="1" />
+      <edge source="Jynx" target="Toxicroak" id="394" weight="1" />
+      <edge source="Haunter" target="Manectric" id="395" weight="3" />
+      <edge source="Haunter" target="Regirock" id="396" weight="3" />
+      <edge source="Haunter" target="Tauros" id="397" weight="2" />
+      <edge source="Haunter" target="Slowking" id="398" weight="2" />
+      <edge source="Haunter" target="Hitmonchan" id="399" weight="1" />
+      <edge source="Haunter" target="Skuntank" id="400" weight="1" />
+      <edge source="Haunter" target="Piloswine" id="401" weight="1" />
+      <edge source="Haunter" target="Magneton" id="402" weight="1" />
+      <edge source="Haunter" target="Politoed" id="403" weight="1" />
+      <edge source="Haunter" target="Magmortar" id="404" weight="1" />
+      <edge source="Manectric" target="Regirock" id="405" weight="3" />
+      <edge source="Manectric" target="Tauros" id="406" weight="2" />
+      <edge source="Manectric" target="Slowking" id="407" weight="2" />
+      <edge source="Manectric" target="Hitmonchan" id="408" weight="1" />
+      <edge source="Manectric" target="Skuntank" id="409" weight="1" />
+      <edge source="Manectric" target="Machoke" id="410" weight="1" />
+      <edge source="Manectric" target="Sandslash" id="411" weight="1" />
+      <edge source="Manectric" target="Whiscash" id="412" weight="1" />
+      <edge source="Manectric" target="Jumpluff" id="413" weight="1" />
+      <edge source="Regirock" target="Tauros" id="414" weight="2" />
+      <edge source="Regirock" target="Slowking" id="415" weight="2" />
+      <edge source="Regirock" target="Hitmonchan" id="416" weight="2" />
+      <edge source="Regirock" target="Skuntank" id="417" weight="2" />
+      <edge source="Regirock" target="Whiscash" id="418" weight="1" />
+      <edge source="Regirock" target="Magmortar" id="419" weight="1" />
+      <edge source="Regirock" target="Persian" id="420" weight="1" />
+      <edge source="Regirock" target="Hypno" id="421" weight="1" />
+      <edge source="Regirock" target="Victreebel" id="422" weight="1" />
+      <edge source="Regirock" target="Shiftry" id="423" weight="1" />
+      <edge source="Regirock" target="Typhlosion" id="424" weight="1" />
+      <edge source="Tauros" target="Slowking" id="425" weight="2" />
+      <edge source="Tauros" target="Hypno" id="426" weight="1" />
+      <edge source="Tauros" target="Magneton" id="427" weight="1" />
+      <edge source="Tauros" target="Hitmonchan" id="428" weight="1" />
+      <edge source="Tauros" target="Solrock" id="429" weight="1" />
+      <edge source="Tauros" target="Marowak" id="430" weight="1" />
+      <edge source="Tauros" target="Camerupt" id="431" weight="1" />
+      <edge source="Tauros" target="Gardevoir" id="432" weight="1" />
+      <edge source="Tauros" target="Jumpluff" id="433" weight="1" />
+      <edge source="Tauros" target="Sandslash" id="434" weight="1" />
+      <edge source="Tauros" target="Grumpig" id="435" weight="1" />
+      <edge source="Tauros" target="Poliwrath" id="436" weight="1" />
+      <edge source="Hitmonchan" target="Skuntank" id="437" weight="2" />
+      <edge source="Hitmonchan" target="Whiscash" id="438" weight="1" />
+      <edge source="Hitmonchan" target="Magmortar" id="439" weight="1" />
+      <edge source="Hitmonchan" target="Hypno" id="440" weight="1" />
+      <edge source="Hitmonchan" target="Magneton" id="441" weight="1" />
+      <edge source="Skuntank" target="Whiscash" id="442" weight="1" />
+      <edge source="Skuntank" target="Magmortar" id="443" weight="1" />
+      <edge source="Skuntank" target="Floatzel" id="444" weight="1" />
+      <edge source="Skuntank" target="Gardevoir" id="445" weight="1" />
+      <edge source="Skuntank" target="Sandslash" id="446" weight="1" />
+      <edge source="Skuntank" target="Vileplume" id="447" weight="1" />
+      <edge source="Piloswine" target="Magneton" id="448" weight="1" />
+      <edge source="Piloswine" target="Politoed" id="449" weight="1" />
+      <edge source="Piloswine" target="Magmortar" id="450" weight="1" />
+      <edge source="Magneton" target="Politoed" id="451" weight="1" />
+      <edge source="Magneton" target="Magmortar" id="452" weight="1" />
+      <edge source="Magneton" target="Hypno" id="453" weight="1" />
+      <edge source="Politoed" target="Magmortar" id="454" weight="1" />
+      <edge source="Politoed" target="Purugly" id="455" weight="1" />
+      <edge source="Politoed" target="Rhydon" id="456" weight="1" />
+      <edge source="Politoed" target="Victreebel" id="457" weight="1" />
+      <edge source="Politoed" target="Monferno" id="458" weight="1" />
+      <edge source="Politoed" target="Golbat" id="459" weight="1" />
+      <edge source="Magmortar" target="Whiscash" id="460" weight="1" />
+      <edge source="Whiscash" target="Machoke" id="461" weight="1" />
+      <edge source="Whiscash" target="Sandslash" id="462" weight="1" />
+      <edge source="Whiscash" target="Jumpluff" id="463" weight="1" />
+      <edge source="Floatzel" target="Gardevoir" id="464" weight="1" />
+      <edge source="Floatzel" target="Sandslash" id="465" weight="1" />
+      <edge source="Floatzel" target="Vileplume" id="466" weight="1" />
+      <edge source="Gardevoir" target="Sandslash" id="467" weight="1" />
+      <edge source="Gardevoir" target="Vileplume" id="468" weight="1" />
+      <edge source="Gardevoir" target="Solrock" id="469" weight="1" />
+      <edge source="Gardevoir" target="Marowak" id="470" weight="1" />
+      <edge source="Gardevoir" target="Camerupt" id="471" weight="1" />
+      <edge source="Sandslash" target="Vileplume" id="472" weight="1" />
+      <edge source="Sandslash" target="Machoke" id="473" weight="1" />
+      <edge source="Sandslash" target="Jumpluff" id="474" weight="2" />
+      <edge source="Sandslash" target="Grumpig" id="475" weight="1" />
+      <edge source="Sandslash" target="Poliwrath" id="476" weight="1" />
+      <edge source="Hypno" target="Persian" id="477" weight="1" />
+      <edge source="Hypno" target="Victreebel" id="478" weight="1" />
+      <edge source="Hypno" target="Shiftry" id="479" weight="1" />
+      <edge source="Hypno" target="Typhlosion" id="480" weight="1" />
+      <edge source="Machoke" target="Jumpluff" id="481" weight="1" />
+      <edge source="Jumpluff" target="Grumpig" id="482" weight="1" />
+      <edge source="Jumpluff" target="Poliwrath" id="483" weight="1" />
+      <edge source="Solrock" target="Marowak" id="484" weight="1" />
+      <edge source="Solrock" target="Camerupt" id="485" weight="1" />
+      <edge source="Solrock" target="Banette" id="486" weight="2" />
+      <edge source="Solrock" target="Seviper" id="487" weight="2" />
+      <edge source="Solrock" target="Quagsire" id="488" weight="2" />
+      <edge source="Solrock" target="Raticate" id="489" weight="2" />
+      <edge source="Solrock" target="Pikachu" id="490" weight="2" />
+      <edge source="Marowak" target="Camerupt" id="491" weight="1" />
+      <edge source="Camerupt" target="Glalie" id="492" weight="1" />
+      <edge source="Camerupt" target="Mantine" id="493" weight="1" />
+      <edge source="Camerupt" target="Purugly" id="494" weight="1" />
+      <edge source="Camerupt" target="Misdreavus" id="495" weight="1" />
+      <edge source="Camerupt" target="Pinsir" id="496" weight="1" />
+      <edge source="Grumpig" target="Poliwrath" id="497" weight="1" />
+      <edge source="Persian" target="Victreebel" id="498" weight="1" />
+      <edge source="Persian" target="Shiftry" id="499" weight="1" />
+      <edge source="Persian" target="Typhlosion" id="500" weight="1" />
+      <edge source="Persian" target="Onix" id="501" weight="2" />
+      <edge source="Persian" target="Tangela" id="502" weight="2" />
+      <edge source="Persian" target="Magmar" id="503" weight="2" />
+      <edge source="Persian" target="Weepinbell" id="504" weight="2" />
+      <edge source="Persian" target="Abra" id="505" weight="2" />
+      <edge source="Victreebel" target="Shiftry" id="506" weight="1" />
+      <edge source="Victreebel" target="Typhlosion" id="507" weight="1" />
+      <edge source="Victreebel" target="Kadabra" id="508" weight="1" />
+      <edge source="Victreebel" target="Purugly" id="509" weight="3" />
+      <edge source="Victreebel" target="Golduck" id="510" weight="1" />
+      <edge source="Victreebel" target="Gabite" id="511" weight="1" />
+      <edge source="Victreebel" target="Metang" id="512" weight="1" />
+      <edge source="Victreebel" target="Mantine" id="513" weight="1" />
+      <edge source="Victreebel" target="Rhydon" id="514" weight="2" />
+      <edge source="Victreebel" target="Ampharos" id="515" weight="1" />
+      <edge source="Victreebel" target="Xatu" id="516" weight="1" />
+      <edge source="Victreebel" target="Monferno" id="517" weight="1" />
+      <edge source="Victreebel" target="Golbat" id="518" weight="1" />
+      <edge source="Shiftry" target="Typhlosion" id="519" weight="1" />
+      <edge source="Flygon" target="Lucario" id="520" weight="1" />
+      <edge source="Clefable" target="Gliscor" id="521" weight="1" />
+      <edge source="Clefable" target="Absol" id="522" weight="1" />
+      <edge source="Clefable" target="Mismagius" id="523" weight="1" />
+      <edge source="Clefable" target="Alakazam" id="524" weight="1" />
+      <edge source="Clefable" target="Aggron" id="525" weight="1" />
+      <edge source="Clefable" target="Donphan" id="526" weight="1" />
+      <edge source="Clefable" target="Milotic" id="527" weight="2" />
+      <edge source="Clefable" target="Feraligatr" id="528" weight="1" />
+      <edge source="Clefable" target="Rhyperior" id="529" weight="1" />
+      <edge source="Clefable" target="Toxicroak" id="530" weight="1" />
+      <edge source="Gliscor" target="Nidoqueen" id="531" weight="1" />
+      <edge source="Gliscor" target="Milotic" id="532" weight="1" />
+      <edge source="Nidoqueen" target="Milotic" id="533" weight="1" />
+      <edge source="Milotic" target="Aggron" id="534" weight="1" />
+      <edge source="Milotic" target="Donphan" id="535" weight="1" />
+      <edge source="Milotic" target="Mismagius" id="536" weight="1" />
+      <edge source="Milotic" target="Registeel" id="537" weight="1" />
+      <edge source="Milotic" target="Primeape" id="538" weight="1" />
+      <edge source="Milotic" target="Feraligatr" id="539" weight="1" />
+      <edge source="Milotic" target="Rhyperior" id="540" weight="1" />
+      <edge source="Milotic" target="Toxicroak" id="541" weight="1" />
+      <edge source="Relicanth" target="Rhydon" id="542" weight="1" />
+      <edge source="Relicanth" target="Bellossom" id="543" weight="2" />
+      <edge source="Relicanth" target="Pelipper" id="544" weight="1" />
+      <edge source="Relicanth" target="Zangoose" id="545" weight="1" />
+      <edge source="Relicanth" target="Xatu" id="546" weight="2" />
+      <edge source="Relicanth" target="Glalie" id="547" weight="1" />
+      <edge source="Relicanth" target="Murkrow" id="548" weight="1" />
+      <edge source="Relicanth" target="Purugly" id="549" weight="1" />
+      <edge source="Rhydon" target="Bellossom" id="550" weight="2" />
+      <edge source="Rhydon" target="Pelipper" id="551" weight="1" />
+      <edge source="Rhydon" target="Zangoose" id="552" weight="1" />
+      <edge source="Rhydon" target="Xatu" id="553" weight="2" />
+      <edge source="Rhydon" target="Misdreavus" id="554" weight="1" />
+      <edge source="Rhydon" target="Metang" id="555" weight="1" />
+      <edge source="Rhydon" target="Golduck" id="556" weight="1" />
+      <edge source="Rhydon" target="Purugly" id="557" weight="3" />
+      <edge source="Rhydon" target="Mantine" id="558" weight="1" />
+      <edge source="Rhydon" target="Ampharos" id="559" weight="1" />
+      <edge source="Rhydon" target="Monferno" id="560" weight="1" />
+      <edge source="Rhydon" target="Golbat" id="561" weight="1" />
+      <edge source="Bellossom" target="Pelipper" id="562" weight="1" />
+      <edge source="Bellossom" target="Zangoose" id="563" weight="1" />
+      <edge source="Bellossom" target="Xatu" id="564" weight="2" />
+      <edge source="Bellossom" target="Glalie" id="565" weight="1" />
+      <edge source="Bellossom" target="Murkrow" id="566" weight="1" />
+      <edge source="Bellossom" target="Purugly" id="567" weight="2" />
+      <edge source="Bellossom" target="Misdreavus" id="568" weight="1" />
+      <edge source="Bellossom" target="Metang" id="569" weight="1" />
+      <edge source="Bellossom" target="Golduck" id="570" weight="1" />
+      <edge source="Pelipper" target="Zangoose" id="571" weight="1" />
+      <edge source="Pelipper" target="Xatu" id="572" weight="1" />
+      <edge source="Zangoose" target="Xatu" id="573" weight="1" />
+      <edge source="Xatu" target="Glalie" id="574" weight="1" />
+      <edge source="Xatu" target="Murkrow" id="575" weight="1" />
+      <edge source="Xatu" target="Purugly" id="576" weight="2" />
+      <edge source="Xatu" target="Mantine" id="577" weight="1" />
+      <edge source="Xatu" target="Ampharos" id="578" weight="1" />
+      <edge source="Kadabra" target="Purugly" id="579" weight="1" />
+      <edge source="Kadabra" target="Golduck" id="580" weight="1" />
+      <edge source="Kadabra" target="Gabite" id="581" weight="1" />
+      <edge source="Kadabra" target="Metang" id="582" weight="1" />
+      <edge source="Purugly" target="Golduck" id="583" weight="2" />
+      <edge source="Purugly" target="Gabite" id="584" weight="1" />
+      <edge source="Purugly" target="Metang" id="585" weight="2" />
+      <edge source="Purugly" target="Glalie" id="586" weight="2" />
+      <edge source="Purugly" target="Murkrow" id="587" weight="1" />
+      <edge source="Purugly" target="Misdreavus" id="588" weight="2" />
+      <edge source="Purugly" target="Mantine" id="589" weight="2" />
+      <edge source="Purugly" target="Ampharos" id="590" weight="1" />
+      <edge source="Purugly" target="Pinsir" id="591" weight="1" />
+      <edge source="Purugly" target="Monferno" id="592" weight="1" />
+      <edge source="Purugly" target="Golbat" id="593" weight="1" />
+      <edge source="Golduck" target="Gabite" id="594" weight="1" />
+      <edge source="Golduck" target="Metang" id="595" weight="2" />
+      <edge source="Golduck" target="Misdreavus" id="596" weight="1" />
+      <edge source="Gabite" target="Metang" id="597" weight="1" />
+      <edge source="Metang" target="Misdreavus" id="598" weight="1" />
+      <edge source="Glalie" target="Murkrow" id="599" weight="1" />
+      <edge source="Glalie" target="Mantine" id="600" weight="1" />
+      <edge source="Glalie" target="Misdreavus" id="601" weight="1" />
+      <edge source="Glalie" target="Pinsir" id="602" weight="1" />
+      <edge source="Misdreavus" target="Mantine" id="603" weight="1" />
+      <edge source="Misdreavus" target="Pinsir" id="604" weight="1" />
+      <edge source="Mantine" target="Ampharos" id="605" weight="1" />
+      <edge source="Mantine" target="Pinsir" id="606" weight="1" />
+      <edge source="Monferno" target="Golbat" id="607" weight="1" />
+      <edge source="Rayquaza" target="Dialga" id="608" weight="1" />
+      <edge source="Rayquaza" target="Palkia" id="609" weight="1" />
+      <edge source="Rayquaza" target="Groudon" id="610" weight="1" />
+      <edge source="Rayquaza" target="Mewtwo" id="611" weight="1" />
+      <edge source="Dialga" target="Palkia" id="612" weight="2" />
+      <edge source="Dialga" target="Groudon" id="613" weight="3" />
+      <edge source="Dialga" target="Mewtwo" id="614" weight="2" />
+      <edge source="Dialga" target="Cloyster" id="615" weight="1" />
+      <edge source="Dialga" target="Giratina" id="616" weight="3" />
+      <edge source="Dialga" target="Kyogre" id="617" weight="4" />
+      <edge source="Dialga" target="Latios" id="618" weight="2" />
+      <edge source="Dialga" target="Froslass" id="619" weight="1" />
+      <edge source="Dialga" target="Kabutops" id="620" weight="1" />
+      <edge source="Dialga" target="Tentacruel" id="621" weight="1" />
+      <edge source="Dialga" target="Darkrai" id="622" weight="1" />
+      <edge source="Palkia" target="Groudon" id="623" weight="3" />
+      <edge source="Palkia" target="Mewtwo" id="624" weight="1" />
+      <edge source="Palkia" target="Ho-oh" id="625" weight="1" />
+      <edge source="Palkia" target="Forretress" id="626" weight="1" />
+      <edge source="Palkia" target="Giratina" id="627" weight="3" />
+      <edge source="Palkia" target="Darkrai" id="628" weight="1" />
+      <edge source="Palkia" target="Cloyster" id="629" weight="2" />
+      <edge source="Palkia" target="Kyogre" id="630" weight="1" />
+      <edge source="Palkia" target="Lugia" id="631" weight="1" />
+      <edge source="Groudon" target="Mewtwo" id="632" weight="2" />
+      <edge source="Groudon" target="Ho-oh" id="633" weight="1" />
+      <edge source="Groudon" target="Forretress" id="634" weight="1" />
+      <edge source="Groudon" target="Giratina" id="635" weight="4" />
+      <edge source="Groudon" target="Darkrai" id="636" weight="1" />
+      <edge source="Groudon" target="Deoxys" id="637" weight="1" />
+      <edge source="Groudon" target="Latios" id="638" weight="2" />
+      <edge source="Groudon" target="Garchomp" id="639" weight="1" />
+      <edge source="Groudon" target="Cloyster" id="640" weight="1" />
+      <edge source="Groudon" target="Lugia" id="641" weight="1" />
+      <edge source="Groudon" target="Froslass" id="642" weight="1" />
+      <edge source="Groudon" target="Kyogre" id="643" weight="1" />
+      <edge source="Groudon" target="Kabutops" id="644" weight="1" />
+      <edge source="Mewtwo" target="Latios" id="645" weight="1" />
+      <edge source="Ho-oh" target="Forretress" id="646" weight="1" />
+      <edge source="Ho-oh" target="Giratina" id="647" weight="1" />
+      <edge source="Ho-oh" target="Darkrai" id="648" weight="1" />
+      <edge source="Forretress" target="Giratina" id="649" weight="1" />
+      <edge source="Forretress" target="Darkrai" id="650" weight="1" />
+      <edge source="Giratina" target="Darkrai" id="651" weight="1" />
+      <edge source="Giratina" target="Cloyster" id="652" weight="2" />
+      <edge source="Giratina" target="Kyogre" id="653" weight="3" />
+      <edge source="Giratina" target="Deoxys" id="654" weight="1" />
+      <edge source="Giratina" target="Latios" id="655" weight="1" />
+      <edge source="Giratina" target="Garchomp" id="656" weight="1" />
+      <edge source="Giratina" target="Lugia" id="657" weight="1" />
+      <edge source="Giratina" target="Froslass" id="658" weight="1" />
+      <edge source="Giratina" target="Kabutops" id="659" weight="1" />
+      <edge source="Giratina" target="Tentacruel" id="660" weight="1" />
+      <edge source="Darkrai" target="Kyogre" id="661" weight="1" />
+      <edge source="Darkrai" target="Latios" id="662" weight="1" />
+      <edge source="Cloyster" target="Kyogre" id="663" weight="1" />
+      <edge source="Cloyster" target="Lugia" id="664" weight="1" />
+      <edge source="Kyogre" target="Froslass" id="665" weight="1" />
+      <edge source="Kyogre" target="Kabutops" id="666" weight="1" />
+      <edge source="Kyogre" target="Tentacruel" id="667" weight="1" />
+      <edge source="Kyogre" target="Latios" id="668" weight="1" />
+      <edge source="Deoxys" target="Latios" id="669" weight="1" />
+      <edge source="Deoxys" target="Garchomp" id="670" weight="1" />
+      <edge source="Latios" target="Garchomp" id="671" weight="1" />
+      <edge source="Froslass" target="Kabutops" id="672" weight="1" />
+      <edge source="Kabutops" target="Steelix" id="673" weight="1" />
+      <edge source="Kabutops" target="Altaria" id="674" weight="1" />
+      <edge source="Kabutops" target="Leafeon" id="675" weight="2" />
+      <edge source="Kabutops" target="Dugtrio" id="676" weight="3" />
+      <edge source="Kabutops" target="Toxicroak" id="677" weight="2" />
+      <edge source="Kabutops" target="Drapion" id="678" weight="1" />
+      <edge source="Kabutops" target="Uxie" id="679" weight="2" />
+      <edge source="Kabutops" target="Miltank" id="680" weight="1" />
+      <edge source="Kabutops" target="Mismagius" id="681" weight="2" />
+      <edge source="Kabutops" target="Mesprit" id="682" weight="1" />
+      <edge source="Kabutops" target="Swellow" id="683" weight="1" />
+      <edge source="Kabutops" target="Arcanine" id="684" weight="2" />
+      <edge source="Kabutops" target="Ludicolo" id="685" weight="1" />
+      <edge source="Kabutops" target="Registeel" id="686" weight="2" />
+      <edge source="Kabutops" target="Sceptile" id="687" weight="1" />
+      <edge source="Kabutops" target="Donphan" id="688" weight="1" />
+      <edge source="Lairon" target="Quagsire" id="689" weight="2" />
+      <edge source="Lairon" target="Tangela" id="690" weight="2" />
+      <edge source="Lairon" target="Flareon" id="691" weight="2" />
+      <edge source="Lairon" target="Swalot" id="692" weight="2" />
+      <edge source="Quagsire" target="Tangela" id="693" weight="2" />
+      <edge source="Quagsire" target="Flareon" id="694" weight="2" />
+      <edge source="Quagsire" target="Swalot" id="695" weight="2" />
+      <edge source="Quagsire" target="Banette" id="696" weight="2" />
+      <edge source="Quagsire" target="Seviper" id="697" weight="2" />
+      <edge source="Quagsire" target="Raticate" id="698" weight="2" />
+      <edge source="Quagsire" target="Pikachu" id="699" weight="2" />
+      <edge source="Tangela" target="Flareon" id="700" weight="2" />
+      <edge source="Tangela" target="Swalot" id="701" weight="2" />
+      <edge source="Tangela" target="Onix" id="702" weight="2" />
+      <edge source="Tangela" target="Magmar" id="703" weight="2" />
+      <edge source="Tangela" target="Weepinbell" id="704" weight="2" />
+      <edge source="Tangela" target="Abra" id="705" weight="2" />
+      <edge source="Flareon" target="Swalot" id="706" weight="2" />
+      <edge source="Banette" target="Seviper" id="707" weight="2" />
+      <edge source="Banette" target="Raticate" id="708" weight="2" />
+      <edge source="Banette" target="Pikachu" id="709" weight="2" />
+      <edge source="Seviper" target="Raticate" id="710" weight="2" />
+      <edge source="Seviper" target="Pikachu" id="711" weight="2" />
+      <edge source="Raticate" target="Pikachu" id="712" weight="2" />
+      <edge source="Onix" target="Magmar" id="713" weight="2" />
+      <edge source="Onix" target="Weepinbell" id="714" weight="2" />
+      <edge source="Onix" target="Abra" id="715" weight="2" />
+      <edge source="Magmar" target="Weepinbell" id="716" weight="2" />
+      <edge source="Magmar" target="Abra" id="717" weight="2" />
+      <edge source="Weepinbell" target="Abra" id="718" weight="2" />
+      <edge source="Uxie" target="Feraligatr" id="719" weight="1" />
+      <edge source="Uxie" target="Donphan" id="720" weight="1" />
+      <edge source="Uxie" target="Toxicroak" id="721" weight="2" />
+      <edge source="Uxie" target="Mismagius" id="722" weight="2" />
+      <edge source="Uxie" target="Ursaring" id="723" weight="1" />
+      <edge source="Uxie" target="Hitmonlee" id="724" weight="1" />
+      <edge source="Uxie" target="Drapion" id="725" weight="1" />
+      <edge source="Uxie" target="Miltank" id="726" weight="1" />
+      <edge source="Uxie" target="Ludicolo" id="727" weight="1" />
+      <edge source="Uxie" target="Dugtrio" id="728" weight="1" />
+      <edge source="Uxie" target="Registeel" id="729" weight="1" />
+      <edge source="Feraligatr" target="Donphan" id="730" weight="1" />
+      <edge source="Feraligatr" target="Toxicroak" id="731" weight="2" />
+      <edge source="Feraligatr" target="Rhyperior" id="732" weight="1" />
+      <edge source="Donphan" target="Toxicroak" id="733" weight="1" />
+      <edge source="Donphan" target="Aggron" id="734" weight="1" />
+      <edge source="Donphan" target="Mismagius" id="735" weight="1" />
+      <edge source="Donphan" target="Arcanine" id="736" weight="1" />
+      <edge source="Donphan" target="Sceptile" id="737" weight="1" />
+      <edge source="Donphan" target="Registeel" id="738" weight="1" />
+      <edge source="Toxicroak" target="Steelix" id="739" weight="1" />
+      <edge source="Toxicroak" target="Altaria" id="740" weight="1" />
+      <edge source="Toxicroak" target="Leafeon" id="741" weight="1" />
+      <edge source="Toxicroak" target="Dugtrio" id="742" weight="2" />
+      <edge source="Toxicroak" target="Ludicolo" id="743" weight="1" />
+      <edge source="Toxicroak" target="Registeel" id="744" weight="1" />
+      <edge source="Toxicroak" target="Rhyperior" id="745" weight="1" />
+      <edge source="Mismagius" target="Ursaring" id="746" weight="1" />
+      <edge source="Mismagius" target="Hitmonlee" id="747" weight="1" />
+      <edge source="Mismagius" target="Drapion" id="748" weight="1" />
+      <edge source="Mismagius" target="Miltank" id="749" weight="1" />
+      <edge source="Mismagius" target="Absol" id="750" weight="1" />
+      <edge source="Mismagius" target="Alakazam" id="751" weight="1" />
+      <edge source="Mismagius" target="Arcanine" id="752" weight="1" />
+      <edge source="Mismagius" target="Sceptile" id="753" weight="1" />
+      <edge source="Mismagius" target="Registeel" id="754" weight="2" />
+      <edge source="Mismagius" target="Primeape" id="755" weight="1" />
+      <edge source="Ursaring" target="Hitmonlee" id="756" weight="1" />
+      <edge source="Steelix" target="Altaria" id="757" weight="1" />
+      <edge source="Steelix" target="Leafeon" id="758" weight="1" />
+      <edge source="Steelix" target="Dugtrio" id="759" weight="1" />
+      <edge source="Altaria" target="Leafeon" id="760" weight="1" />
+      <edge source="Altaria" target="Dugtrio" id="761" weight="1" />
+      <edge source="Leafeon" target="Dugtrio" id="762" weight="2" />
+      <edge source="Leafeon" target="Mesprit" id="763" weight="1" />
+      <edge source="Leafeon" target="Swellow" id="764" weight="1" />
+      <edge source="Leafeon" target="Arcanine" id="765" weight="1" />
+      <edge source="Dugtrio" target="Mesprit" id="766" weight="1" />
+      <edge source="Dugtrio" target="Swellow" id="767" weight="1" />
+      <edge source="Dugtrio" target="Arcanine" id="768" weight="1" />
+      <edge source="Dugtrio" target="Ludicolo" id="769" weight="1" />
+      <edge source="Dugtrio" target="Registeel" id="770" weight="1" />
+      <edge source="Drapion" target="Miltank" id="771" weight="1" />
+      <edge source="Absol" target="Alakazam" id="772" weight="1" />
+      <edge source="Mesprit" target="Swellow" id="773" weight="1" />
+      <edge source="Mesprit" target="Arcanine" id="774" weight="1" />
+      <edge source="Swellow" target="Arcanine" id="775" weight="1" />
+      <edge source="Arcanine" target="Sceptile" id="776" weight="1" />
+      <edge source="Arcanine" target="Registeel" id="777" weight="1" />
+      <edge source="Ludicolo" target="Registeel" id="778" weight="1" />
+      <edge source="Registeel" target="Sceptile" id="779" weight="1" />
+      <edge source="Registeel" target="Primeape" id="780" weight="1" />
+    </edges>
+  </graph>
+</gexf>
