@@ -18,4 +18,4 @@ Para dudas al respecto contactar con pabloa06@ucm.es
 	- [ABD -> Ampliación de base de Datos](https://github.com/PabloAvg/Practicas-FDI-UCM/tree/main/Tercero/ABD)	
 - [Optativas](https://github.com/PabloAvg/Practicas-FDI-UCM/tree/main/Optativas)	
 	- [SOC -> Analisis de Redes Sociales](https://github.com/PabloAvg/Practicas-FDI-UCM/tree/main/Optativas/SOC)
-	- [SOC -> Analisis de Redes Sociales](https://github.com/PabloAvg/Practicas-FDI-UCM/tree/main/Optativas/DVI)
+	- [DVI -> Desarrollo de videojuegos mediante tecnologias web](https://github.com/PabloAvg/Practicas-FDI-UCM/tree/main/Optativas/DVI)
