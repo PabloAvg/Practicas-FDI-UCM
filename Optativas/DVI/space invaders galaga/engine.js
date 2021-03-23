@@ -109,6 +109,7 @@ var GameBoard = function() {
     // The current list of objects
     this.objects = [];
     this.cnt = {};
+
     // Add a new object to the object list
     this.add = function(obj) {
         obj.board=this;
@@ -200,6 +201,16 @@ var GameBoard = function() {
                 return col ? this : false;
             }
         });
+    };
+
+    this.remove = function(obj) {
+        var idx = this.removed.indexOf(obj);
+        if(idx == -1) {
+            this.removed.push(obj);
+            return true;
+        } else {
+            return false;
+        }
     };
 
     //board.collide(enemy, OBJECT_PLAYER | OBJECT_PLAYER_PROJECTILE)

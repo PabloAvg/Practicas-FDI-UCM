@@ -72,6 +72,12 @@ var PlayerShip = function() {
         }
 
     };
+
+    PlayerShip.prototype.hit = function(damage) {
+        if(this.board.remove(this)) {
+            loseGame();
+        }
+    }
 }
 
 PlayerShip.prototype = new Sprite();
@@ -126,13 +132,102 @@ Enemy.prototype.step = function(dt) {
     if(this.y > Game.height || this.x < -this.w || this.x > Game.width) {
         this.board.remove(this);
     }
+    //Para ver si la nave colisiona con el jugador
+    var collision = this.board.collide(this,OBJECT_PLAYER);
+    if(collision) {
+        collision.hit(this.damage);
+        this.board.remove(this);
+    }
 }
 
 Enemy.prototype.hit = function(damage) {
     this.health -= damage;
     if(this.health <= 0)
-    this.board.remove(this);
+        this.board.remove(this);
 }
     
 
 // NOS TOCA PÁGINA 25, Colisiones de los enemigos con el jugador
+
+///////////////////////////////
+//EXPLOSION
+///////////////////////////////
+
+var Explosion = function(centerX,centerY) {
+    this.setup('explosion', { frame: 0 });
+    this.x = centerX - this.w/2;
+    this.y = centerY - this.h/2;
+    this.subFrame = 0;
+};
+
+Explosion.prototype = new Sprite();
+
+Explosion.prototype.step = function(dt) {
+    this.frame = Math.floor(this.subFrame++ / 3);
+    if(this.subFrame >= 36) {
+        this.board.remove(this);
+    }
+};
+
+//y la explosión se crea cuando se destruye un enemigo:
+Enemy.prototype.hit = function(damage) {
+    this.health -= damage;
+    if(this.health <=0) {
+        if(this.board.remove(this)) {
+            this.board.add(new Explosion(this.x + this.w/2, this.y + this.h/2));
+        }
+    }
+}
+
+///////////////////////////////
+//LEVEL
+///////////////////////////////
+
+var Level = function(levelData,callback) {
+    this.levelData = [];
+    for(var i = 0; i < levelData.length; i++) {
+        this.levelData.push(Object.create(levelData[i]));
+    }
+    this.t = 0;
+    this.callback = callback;
+}
+
+Level.prototype.draw = function(ctx) { }
+
+Level.prototype.step = function(dt) {
+    var idx = 0, remove = [], curShip = null;
+
+    // Update the current time offset
+    this.t += dt * 1000;
+
+    // Example levelData
+    // Start, End, Gap, Type, Override
+    // [[ 0, 4000, 500, 'step', { x: 100 } ]
+    while((curShip = this.levelData[idx]) && 
+        (curShip[0] < this.t + 2000)) {
+            // Check if past the end time
+            if(this.t > curShip[1]) {
+                // If so, remove the entry
+                remove.push(curShip);
+            } else if(curShip[0] < this.t) {
+                // Get the enemy definition blueprint
+                var enemy = enemies[curShip[3]],
+                override = curShip[4];
+                // Add a new enemy with the blueprint and override
+                this.board.add(new Enemy(enemy,override));
+                // Increment the start time by the gap
+                curShip[0] += curShip[2];
+            }
+            idx++;
+    }
+    // Remove any objects from the levelData that have passed
+    for(var i = 0, len = remove.length; i < len; i++) {
+        var idx = this.levelData.indexOf(remove[i]);
+        if(idx != -1) this.levelData.splice(idx,1);
+    }
+    // If there are no more enemies on the board or in
+    // levelData, this level is done
+    if(this.levelData.length == 0 && this.board.cnt[OBJECT_ENEMY] == 0) {
+        if(this.callback) this.callback();
+    }
+}

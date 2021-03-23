@@ -6,10 +6,35 @@ var startGame = function() {
 var playGame = function() {
     var board = new GameBoard();
     board.add(new PlayerShip());
-    board.add(new Enemy(enemies.basic));
-    board.add(new Enemy(enemies.basic, { x: 200 }));
-    Game.setBoard(0,board);
+    board.add(new Level(level1,winGame));
+    Game.setBoard(0,board); 
 };
+
+var winGame = function() {
+    //TODO 0?
+    Game.setBoard(0,new TitleScreen("You win!",
+    "Press fire to play again",
+    playGame));
+};
+
+var loseGame = function() {
+    //TODO 0?
+    Game.setBoard(0,new TitleScreen("You lose!",
+    "Press fire to play again",
+    playGame));
+    };
+
+var level1 = [
+    // Start, End, Gap, Type, Override
+    [ 0, 4000, 500, 'step' ],
+    [ 6000, 13000, 800, 'ltr' ],
+    [ 12000, 16000, 400, 'circle' ],
+    [ 18200, 20000, 500, 'straight', { x: 150 } ],
+    [ 18200, 20000, 500, 'straight', { x: 100 } ],
+    [ 18400, 20000, 500, 'straight', { x: 200 } ],
+    [ 22000, 25000, 400, 'wiggle', { x: 300 }],
+    [ 22000, 25000, 400, 'wiggle', { x: 200 }]
+];
     
 var sprites = { 
     ship_player: {sx:0, sy:0, w:37, h:40, frames:1},
@@ -23,9 +48,17 @@ var sprites = {
 };
 
 var enemies = {
-    basic: { x: 100, y: -50, sprite: 'ship_purple_enemy',
-    B: 100, C:3, E: 100, health: 20 }
-};
+    straight: { x: 0, y: -50, sprite: 'ship_grey_enemy', health: 10,
+            E: 100 },
+    ltr: { x: 0, y: -100, sprite: 'ship_purple_enemy', health: 10,
+            B: 200, C: 1, E: 200 },
+    circle: { x: 400, y: -50, sprite: 'ship_green_enemy', health: 10,
+            A: 0, B: -200, C: 1, E: 20, F: 200, G: 1, H: Math.PI/2 },
+    wiggle: { x: 100, y: -50, sprite: 'ship_orange_enemy', health: 20,
+            B: 100, C: 4, E: 100 },
+    step: { x: 0, y: -50, sprite: 'ship_green_enemy', health: 10,
+            B: 300, C: 1.5, E: 60 }
+    };
 
 // Indica que se llame al método de inicialización una vez
 // se haya terminado de cargar la página HTML
@@ -52,3 +85,4 @@ window.addEventListener("load", function() {
             }
           }, 16);
     }*/
+
